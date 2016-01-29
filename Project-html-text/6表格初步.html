@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="1">
+    <title>表格初步</title>
+</head>
+<body>
+    <!-- table属性 ：width/height/align(水平对齐方向)/border(边框粗细)/bgcolor(表格背景)/background(背景图片URL)/bordercolor(边框颜色)/cellpadding(单元格变现到内容间的距离)/sellspacing(单元格与单元格的距离) -->
+    <table border="1" width="500" bgcolor="#f0f0f0" cellpadding="0" cellspacing="0" align="center" rules="all">
+        <tr bgcolor="#cccccc" height="50">
+            <th>编号</th>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>学历</th>
+        </tr>
+        <tr valign="top">
+            <td bgcolor="#ff1111">1001</td>
+            <td>张三</td>
+            <td>男</td>
+            <td>中专</td>
+        </tr>
+        <tr >
+            <td width="170" height="170" align="center" background="file:///D:\Documents\Pictures\Saved Pictures\111.png">1002</td>
+            <td>张是</td>
+            <td>男</td>
+            <td>中专</td>
+        </tr>
+        <tr>
+            <td rowspan="4">1003</td>
+            <td>张的</td>
+            <td>男</td>
+            <td>中专</td>
+        </tr>
+        <tr>
+            <td>张我</td>
+            <td>男</td>
+            <td>中专</td>
+        </tr>
+        <tr>
+            <td>张饿</td>
+            <td>男</td>
+            <td>中专</td>
+        </tr>
+        <tr>
+            <td>张去</td>
+            <td colspan="2">男</td>
+            
+        </tr>
+    </table>
+</body>
+</html>
