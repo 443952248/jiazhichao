@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>day3-2表单处理</title>
+    <!-- <meta http-equiv="refresh" content="1">--></head>
+<body>
+    <form name="forml" method="get" action="register.php">
+        <table width="800" border="1" align="center" rules="all" cellpadding="5" bordercolor="#d1d1d1">
+            <tr>
+                <td align="right">用户名：</td>
+                <td>
+                    <input type="text" name="username" value="" maxlength=""></td>
+                <td>6-16位字符，可以算字母、数字和特殊符号的组合</td>
+            </tr>
+            <tr>
+                <td align="right">密码：</td>
+                <td>
+                    <input type="password" name="userpwd"></td>
+                <td>6-16位字符，字母、数字和特殊符号的组合</td>
+            </tr>
+            <tr>
+                <!-- 单选框 -->
+                <td align="right">性别：</td>
+                <td colspan="2">
+                    <input type="radio" name="xingbie" value="男" checked="checked">
+                    男
+                    <input type="radio" name="xingbie" value="女">女</td>
+            </tr>
+            <tr>
+            <!-- 复选框 -->
+                <td align="right">兴趣：</td>
+                <td colspan="2">
+                    <input type="checkbox" name="like" value="篮球" checked="checked">
+                    篮球
+                    <input type="checkbox" name="like" value="足球" >
+                    足球
+                    <input type="checkbox" name="like" value="羽毛球" >
+                    羽毛球
+                    <br>
+                    <input type="checkbox" name="like" value="篮球" >
+                    篮球
+                    <input type="checkbox" name="like" value="足球" >
+                    足球
+                    <input type="checkbox" name="like" value="羽毛球" >羽毛球</td>
+            </tr>
+            <tr>
+                <td align="right">学历：</td>
+                <td colspan="2">
+                    <select name="city">
+                        <option value="北京">北京</option>
+                        <option value="天津">天津</option>
+                        <option value="上海">上海</option>
+                        <option value="广州">广州</option>
+                        <option value="阳泉">阳泉</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">真实姓名：</td>
+                <td colspan="2">
+                    <textarea name="urname" id="" cols="30" rows="4">默认文本</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">
+                    <input type="submit" value="提交表单"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">
+                    <input type="reset" value="重新填写"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="2">
+                    <input type="image" src="images/btn02.png">
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
