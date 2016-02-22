@@ -5,9 +5,15 @@
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
-<frameset rows="37,*" frameborder="1" border="5">
+<frameset rows="64,*" frameborder="0" >
         //cols左右分 rows上下分
-    <frame noresize="noresize" src="day4-top.html" />
-    <frame />
+    <frame src="day4-top.html" noresize="noresize" scrolling="no" />
+    <!-- 框架嵌套框架 -->
+    <frameset cols="182,*" frameborder="0" >    
+    //cols左右分 rows上下分
+        <frame src="day4-left.html" noresize="noresize"/>    
+        <frame src="day4-right.html" name="mainFrame" />    
+    </frameset>
 </frameset>
+<noframes>对不起，你的浏览器不支持！！！</noframes>
 </html>
