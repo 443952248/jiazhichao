@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+    "http://www.w3c.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="refresh" content="1" /> -->
+    <title>Document</title>
+    <style type="text/css">
+/*全局样式设置*/
+body,ul,li,h4,a{
+    margin: 0px;
+    padding: 0px;
+}
+ul,li{
+    list-style: none;
+}
+a:link,a:visited{
+    color: #003366;text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+body{
+    font-size: 12px;
+    background-color: #ccc;
+    font-family: 宋体;
+}
+
+/*开班信息模块*/
+.kaiban{
+    width: 295px;
+    border: 1px solid red;
+    background-color: #fff;
+    margin:50px auto;/*div元素在网页中居中对齐(firefox)*/
+}
+.kaiban .title{
+    background-image: url(images/righttitle.gif);
+    line-height: 35px;
+    height: 35px;
+    color: white;
+    font-size: 16px;
+    padding-left: 35px;
+}
+.kaiban .content{
+    padding: 5px 13px;
+}
+.kaiban .content h4{
+    padding:5px 0px;
+}
+.kaiban li{
+    border-bottom: 1px dashed #ccc;
+    padding: 3px 0px;
+}
+.kaiban .content span{
+    font-weight: bold;
+    float: right;
+}
+.loss{
+    color: red;
+}
+.man{
+    color: blue;
+}
+
+    </style>
+</head>
+<body>
+    <div class="kaiban">
+        <div class="title">PHP培训开班信息</div>
+        <div class="content">
+            <h4>PHP基础班</h4>
+            <ul>
+                <li><a href="#">北京--第39期（2016年2月25日）</a><span class="loss">预约报名</span></li>
+                <li><a href="#">北京--第33期（2016年2月25日）</a><span class="max">爆满已开班</span></li>
+                <li><a href="#">北京--第23期（2016年2月25日）</a><span class="max">爆满已开班</span></li>
+                <li><a href="#">北京--第35期（2016年2月25日）</a><span class="max">爆满已开班</span></li>
+            </ul>
+            <h4>PHP就业班</h4>
+            <ul>
+                <li><a href="#">北京--第12期（2016年2月25日）</a><span class="">预约报名</span></li>
+                <li><a href="#">北京--第23期（2016年2月25日）</a><span class="max">爆满已开班</span></li>
+                <li><a href="#">北京--第31期（2016年2月25日）</a><span class="max">爆满已开班</span></li>
+                <li><a href="#">北京--第19期（2016年2月25日）</a><span class="max">爆满已开班</span></li>
+            </ul>
+            <h4>PHP远程班</h4>
+            <ul>
+                <li><a href="#">北京--第23期（2016年2月25日）</a><span class="loss">预约报名</span></li>
+                <li><a href="#">北京--第34期（2016年2月25日）</a><span class="loss">预约报名</span></li>
+                <li><a href="#">北京--第54期（2016年2月25日）</a><span class="max">爆满已开班</span></li>
+                <li><a href="#">北京--第34期（2016年2月25日）</a><span class="max">爆满已开班</span></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
