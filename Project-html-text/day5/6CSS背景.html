@@ -12,15 +12,34 @@ html,body,h1,p{
 ul,li,ol{
     list-style: none;
 }
-a:link,a:visited{color:blue;text-decoration: none;}
+a:link,a:visited{
+    color:blue;text-decoration: none;
+}
 a:hover{
     color: red;
 }
 body{
-    font-size: 14px ;color: #444;
+    font-size: 14px ;color: #444;background-color: #ccc;
 }
+/*新闻模块*/
 .news{
-
+    width: 800px;
+    /*border: 1px solid #444;*/
+    background-color: #fff;
+    margin: 40px auto;/*div元素在网页中居中显示*/
+    padding: 20px 20px 130px;
+    background: #fff url(images/02.gif) no-repeat 690px bottom;
+}
+.news h1{
+    /*border: 1px solid red;*/
+    text-align: center;/*文本居中*/
+    padding: 5px 0px 10px;
+}
+.news p{
+    /*border: 1px solid blue;*/
+    text-indent: 30px;/*首行缩进*/
+    line-height: 150%;/*行间距，是原来行高的1.5倍*/
+    padding: 8px 0px;
 }
 
     </style>
