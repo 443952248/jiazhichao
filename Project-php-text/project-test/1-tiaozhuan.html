@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<script type="text/javascript">
+function fun1(){
+	//通过属性跳转
+	location.href='showgoods.php';
+	}
+function fun2(){
+	//通过assign()方法来跳转
+	location.assign('showgoods.php');
+	}
+function fun3(){
+	//通过reload()来跳转
+	location.reload('showgoods.php');
+	
+	}
+function fun4(){
+	//reload()可以用来做页面跳转，但是一般是用来做刷新本页面的
+	location.reload();
+	}
+function fun5(){
+	location.replace('showgoods.php');
+	}
+	
+	
+</script>
+</head>
+
+<body>
+
+<input type="button" value="跳转[href]" onClick="fun1()"><br>
+<input type="button" value="跳转[assign()]"  onClick="fun2()"><br>
+<input type="button" value="跳转[reload()]" onClick="fun3()"><br>
+<input type="button" value="刷新[reload()]" onClick="fun4()"><br>
+<input type="button" value="跳转[replace()]" onClick="fun5()">
+	
+
+</body>
+</html>
